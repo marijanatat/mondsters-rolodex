@@ -27,7 +27,7 @@ export default class App extends Component {
 
     return (
       <div className='App'>
-      
+          
         <h1>Monsters Rolodex</h1>
         <SearchBox type='search' handleChange={e=>this.setState({searchField:e.target.value})}/>
         <CardList monsters={filteredMonsters}/>
