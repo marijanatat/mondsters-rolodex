@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -12,6 +12,20 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body {
+  padding: 30px 0;
+}*/
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #0ccac4;
+}
+
 
 .App-header {
   background-color: #282c34;
